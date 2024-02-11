@@ -20,7 +20,7 @@ def download_video():
     print("Download in corso...")
     print("Attendere...")
 
-    video.download()
+    video.download(output_path="./output")
 
     print("Download completato!")
 
@@ -38,7 +38,7 @@ def download_audio():
     print("Download in corso...")
     print("Attendere...")
 
-    file = audio.download()
+    file = audio.download(output_path='./output')
 
     print("Download completato!")
 
